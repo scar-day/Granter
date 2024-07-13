@@ -3,5 +3,4 @@ version: '1.0'
 main: dev.scarday.granter.Granter
 api-version: '1.16'
 depend:
-  - PlaceholderAPI
   - LuckPerms
