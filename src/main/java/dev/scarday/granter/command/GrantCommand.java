@@ -42,7 +42,7 @@ public class GrantCommand {
         }
 
         if (player == null) {
-            commandSender.sendMessage("Игрок не найден!");
+            commandSender.sendMessage(Localization.getString("messages.no_found_player"));
             return;
         }
 
