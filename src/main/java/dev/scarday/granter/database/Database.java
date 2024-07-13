@@ -2,7 +2,6 @@ package dev.scarday.granter.database;
 
 import com.j256.ormlite.dao.Dao;
 import com.j256.ormlite.dao.DaoManager;
-import com.j256.ormlite.db.DatabaseType;
 import com.j256.ormlite.jdbc.JdbcConnectionSource;
 import com.j256.ormlite.stmt.QueryBuilder;
 import com.j256.ormlite.stmt.Where;
@@ -11,7 +10,6 @@ import com.j256.ormlite.table.TableUtils;
 import dev.scarday.granter.database.entities.GrantEntity;
 import org.bukkit.entity.Player;
 
-import javax.xml.crypto.Data;
 import java.sql.SQLException;
 import java.util.UUID;
 
